@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="header">
         <div className="header__container">
-            <div className="header__item header__item--live">
+            <div className="header__item header__item--live pulse">
                 <span>Live</span>
                 <img className="header__iconlive" src="/assets/icons/radio-sharp.svg" alt="icon-live"/>
             </div>

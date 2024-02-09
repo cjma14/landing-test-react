@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="hero__container">
                 <div className="hero__content">
                     <h1 className="hero__title">LOREM IPSUM</h1>
-                    <h2 className="hero__title hero__title--white">LOREM IPSUM DOLOR &nbsp;</h2>
+                    <h2 className="hero__title hero__title--white typewriter">LOREM IPSUM DOLOR</h2>
                     <h2 className="hero__title">LOREM IPSUM</h2>
                     <button className="btn btn--primary mt-20">WHAT IS NEXT</button>
                 </div>
