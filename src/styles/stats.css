@@ -21,6 +21,7 @@
 }
 
 .stats__name {
+    font-weight: bold;
     font-size: 5rem;
 }
 
