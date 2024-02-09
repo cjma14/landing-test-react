@@ -1,0 +1,33 @@
+.media-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    position: fixed;
+    background-color: #9a9a9a;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    right: 0;
+    z-index: 1;
+}
+
+.media-menu__item {
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 1px solid #848484;
+    padding: 15px;
+    transition: all ease 200ms;
+}
+
+.media-menu__item:hover {
+    color: #04c859;
+    
+}
+
+@media screen and (max-width: 810px) {
+    .media-menu__item {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

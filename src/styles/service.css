@@ -1,0 +1,28 @@
+.service {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    color: #170b01;
+    margin-top: 13rem;
+    padding: 0 80px;
+}
+
+.service__descripction {
+    font-size: 1.7rem;
+}
+
+.service__image {
+    width: 90%;
+}
+
+
+@media screen and (max-width: 810px) {
+    .service {
+        margin-top: 5rem;
+        padding: 0 40px;
+    }
+
+    .service__descripction {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,31 @@
+.news {
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    background-image: url('/assets/Pic6.png');
+    background-color: #f5f6fa;
+    background-size: cover;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+}
+
+.news__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 9rem;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 810px) {
+    .news {
+        padding-bottom: 0
+    }
+
+    .news__content {
+        padding-left: 20px;
+        padding-top: 2rem;
+        padding-right: 20px;
+    }
+}

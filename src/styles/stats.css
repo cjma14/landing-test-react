@@ -1,0 +1,48 @@
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    align-items: center;
+    color: white;
+    padding: 4rem 12rem;
+    background-color: #025923;
+}
+
+.stats__title {
+    grid-column: span 2;
+    font-size: 2rem;
+}
+
+.stats__items {
+    text-align: center;
+}
+
+.stats__items:not(:first-of-type) {
+    border-left: 1px solid #03b044;
+}
+
+.stats__name {
+    font-size: 5rem;
+}
+
+.stats__description {
+    font-size: 2rem;
+    color: #02aa41;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 810px) {
+    .stats {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .stats__title {
+        grid-column: inherit;
+    }
+
+    .stats__items:not(:first-of-type) {
+        border-top: 1px solid #03b044;
+        padding-top: 20px;
+        border-left: 0;
+    }
+}

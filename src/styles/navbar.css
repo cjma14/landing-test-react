@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    padding-top: 20px;
+}
+
+.navbar__icon {
+    width: 15%;
+}
+
+.navbar__route {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__link {
+    color: var(--text-color-back);
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none !important;
+}
+
+.hero {
+    background-image: url('/assets/Prb_Header.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10rem;
+    padding-top: 6rem;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+}
+
+
+.hero__title {
+    font-size: 5rem;
+    color: white;
+    margin: 0;
+    text-shadow: 4px 3px 7px rgba(0, 0, 0, 0.18);
+}
+
+.hero__title--white {
+    color: #170b01;
+    background-color: white;
+}
+
+
+
+.navbar {
+    padding: 0;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+
+@media screen and (max-width: 810px) {
+    .navbar__icon {
+        width: 25%;
+    }
+
+    .navbar__route {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar__link {
+        font-size: 16px;
+    }
+
+    .hero__container {
+        padding-right: 0;
+        align-items: initial;
+    }
+
+    .hero__content {
+        width: auto;
+        padding: 0px 15px;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+}

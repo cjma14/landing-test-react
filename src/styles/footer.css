@@ -1,0 +1,19 @@
+
+.footer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+    justify-items: center;
+    align-items: center;
+    padding: 3rem 4rem;
+
+}
+
+.footer__text {
+    font-weight: bold;
+    text-align: center
+}
+
+.footer__logo {
+    width: 33%;
+}

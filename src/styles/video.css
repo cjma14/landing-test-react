@@ -1,0 +1,24 @@
+.video {
+    text-align: center;
+    padding: 80px;
+}
+
+.video__list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+}
+
+.video__play {
+    font-size: 4rem;
+    position: absolute;
+    top: 35%;
+    right: 43%;
+    color: white;
+}
+
+@media screen and (max-width: 810px) {
+    .video {
+        padding: 20px;
+    }
+}

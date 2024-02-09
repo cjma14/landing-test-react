@@ -1,0 +1,54 @@
+.contact {
+    min-height: 100vh;
+    background-image: url('/assets/Join Us.png');
+    background-size: cover;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
+}
+
+.contact__content {
+    color: white;
+    padding-right: 80px;
+    padding-top: 9rem;
+}
+
+.contact__description {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contact__form {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__form-full {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact__message {
+    background-color: #e8e7e7;
+    height: 12rem !important;
+}
+
+.contact__condition {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 810px) { 
+    .contact__content {
+        padding: 20px;
+    }
+
+    .contact__form {
+        grid-template-columns: 1fr;
+    }
+
+}
