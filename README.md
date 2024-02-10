@@ -25,7 +25,7 @@ La arquitectura de la landing page se basa en componentes modulares y reutilizab
 
 Se ha utilizado la metodología BEM para nombrar las clases CSS, lo que ayuda a mantener el código organizado y legible.
 <br/>
-[![Captura de pantalla][https://github.com/cjma14/landing-test-react/blob/master/public/assets/capture.png]](https://github.com/cjma14/landing-test-react/blob/master/public/assets/capture.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/cjma14/landing-test-react/blob/master/public/assets/capture.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +63,7 @@ Luego pasaremos a iniciar el servidor local de vite:
 Para su compulación y subida producción simplmente haremos:
   ```sh
   npm run build
-
+ ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,3 +85,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+[product-screenshot]: https://github.com/cjma14/landing-test-react/blob/master/public/assets/capture.png
+[React-url]: https://reactjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF
